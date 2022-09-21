@@ -1,0 +1,31 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet/9223372016900013000/uploadImage
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	additionalMetadata=test1
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Screenshot 2022-09-21 112533.png
+				Content-Type: image/png
+
+				C:\Users\Swaraj Sonawane\Pictures\Screenshot 2022-09-21 112533.png
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 21 Sep 2022 06:24:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "additionalMetadata: test1\nFile uploaded to ./Screenshot 2022-09-21 112533.png, 160090 bytes"
+}
